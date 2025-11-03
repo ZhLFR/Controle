@@ -686,8 +686,11 @@ section {
     border-radius: 50%;
     width: 140px;
     height: 140px;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.15rem;
     text-align: center;
     font-weight: 600;
     box-shadow: 0 20px 35px rgba(124, 58, 237, 0.35);
@@ -695,6 +698,13 @@ section {
 
 .bundle__badge span {
     font-size: 2rem;
+    line-height: 1;
+}
+
+.bundle__badge p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.1;
 }
 
 .bundle__price {
