@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Formations Pro+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar__wrapper">
+            <span>🔥 Offre spéciale : -30% sur votre première formation avec le code <strong>BIENVENUE30</strong></span>
+            <nav class="topbar__links" aria-label="Navigation principale">
+                <a href="index.html">Accueil</a>
+                <a href="catalogue.html">Catalogue</a>
+                <a href="temoignages.html">Témoignages</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html" aria-current="page">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero" data-animate="fade">
+        <div class="page-hero__content" data-animate="slide-right">
+            <h1 class="page-hero__title">Contactez un conseiller</h1>
+            <p class="page-hero__lead">Expliquez-nous votre projet de formation : nous vous répondrons sous 24 heures pour construire l'offre la plus adaptée.</p>
+            <div class="page-hero__actions" data-animate="slide-right" data-animate-delay="0.12s">
+                <a class="btn btn--primary" href="#contact">Demander à être rappelé</a>
+                <a class="btn btn--secondary" href="faq.html">Consulter la FAQ</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="contact" id="contact" data-animate="fade">
+            <div class="contact__content" data-animate="slide-right">
+                <div data-animate="fade" data-animate-delay="0.05s">
+                    <h2>Parlons de vos besoins</h2>
+                    <p>Expliquez-nous votre projet : nous élaborerons un plan de formation adapté à vos objectifs individuels ou d'équipe.</p>
+                    <ul class="contact__infos">
+                        <li><strong>Téléphone :</strong> 01 86 95 45 00</li>
+                        <li><strong>Email :</strong> contact@formationsproplus.fr</li>
+                        <li><strong>Adresse :</strong> 12 rue des Entrepreneurs, 75011 Paris</li>
+                    </ul>
+                </div>
+                <form class="contact__form" data-animate="slide-left" data-animate-delay="0.12s">
+                    <div class="form__group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email professionnel</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="company">Entreprise</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Votre projet</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Décrivez vos besoins en formation"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Être recontacté</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature" data-animate="fade" data-animate-delay="0s">
+                <span class="feature__icon" aria-hidden="true">🎯</span>
+                <h3>Accompagnement personnalisé</h3>
+                <p>Un conseiller dédié vous suit du diagnostic initial jusqu'au déploiement du plan de formation.</p>
+            </div>
+            <div class="feature" data-animate="fade" data-animate-delay="0.08s">
+                <span class="feature__icon" aria-hidden="true">⚡</span>
+                <h3>Support réactif</h3>
+                <p>Notre équipe vous répond par chat, email ou téléphone dans un délai maximum de 4 heures ouvrées.</p>
+            </div>
+            <div class="feature" data-animate="fade" data-animate-delay="0.16s">
+                <span class="feature__icon" aria-hidden="true">🚀</span>
+                <h3>Onboarding fluide</h3>
+                <p>Nous prenons en charge la communication interne, la création des accès et le suivi administratif.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div>
+                <h3>Formations Pro+</h3>
+                <p>La plateforme e-commerce française dédiée aux formations professionnelles premium.</p>
+            </div>
+            <nav class="footer__nav">
+                <div>
+                    <h4>Formations</h4>
+                    <a href="catalogue.html#catalogue">Marketing digital</a>
+                    <a href="catalogue.html#catalogue">Management</a>
+                    <a href="catalogue.html#catalogue">Data &amp; Tech</a>
+                    <a href="catalogue.html#catalogue">Soft skills</a>
+                </div>
+                <div>
+                    <h4>Entreprise</h4>
+                    <a href="catalogue.html#offre">Offre Pack Business</a>
+                    <a href="temoignages.html#temoignages">Références clients</a>
+                    <a href="contact.html#contact">Support et contact</a>
+                    <a href="faq.html#faq">FAQ</a>
+                </div>
+                <div>
+                    <h4>Légal</h4>
+                    <a href="#">Conditions générales de vente</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Accessibilité</a>
+                </div>
+            </nav>
+            <div class="footer__newsletter">
+                <h4>Recevoir nos actualités</h4>
+                <form class="newsletter__form">
+                    <input type="email" placeholder="Votre email" aria-label="Email newsletter" required>
+                    <button type="submit" class="btn btn--secondary">S'inscrire</button>
+                </form>
+                <p class="newsletter__note">En vous inscrivant, vous acceptez de recevoir nos emails. Désinscription en un clic.</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2024 Formations Pro+. Tous droits réservés.</p>
+            <div class="footer__badges">
+                <span>✅ Certification Qualiopi</span>
+                <span>🔒 Paiement sécurisé SSL</span>
+                <span>🌱 1% reversé à des projets éducatifs</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
