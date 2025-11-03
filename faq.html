@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Formations Pro+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar__wrapper">
+            <span>🔥 Offre spéciale : -30% sur votre première formation avec le code <strong>BIENVENUE30</strong></span>
+            <nav class="topbar__links" aria-label="Navigation principale">
+                <a href="index.html">Accueil</a>
+                <a href="catalogue.html">Catalogue</a>
+                <a href="temoignages.html">Témoignages</a>
+                <a href="faq.html" aria-current="page">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero" data-animate="fade">
+        <div class="page-hero__content" data-animate="slide-right">
+            <h1 class="page-hero__title">Questions fréquentes</h1>
+            <p class="page-hero__lead">Retrouvez toutes les réponses concernant le financement, l'accès aux contenus et l'accompagnement proposé par Formations Pro+.</p>
+            <div class="page-hero__actions" data-animate="slide-right" data-animate-delay="0.12s">
+                <a class="btn btn--primary" href="#faq">Explorer la FAQ</a>
+                <a class="btn btn--secondary" href="contact.html">Contacter le support</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="faq" id="faq" data-animate="fade">
+            <div class="section-title" data-animate="fade">
+                <h2>Vos questions, nos réponses</h2>
+                <p>Cliquez sur une question pour afficher la réponse.</p>
+            </div>
+            <div class="faq__list" aria-live="polite" data-animate="fade">
+                <article class="faq__item" data-animate="fade" data-animate-delay="0s">
+                    <button class="faq__question" aria-expanded="false">Les formations sont-elles finançables par le CPF ?</button>
+                    <div class="faq__answer" hidden>
+                        <p>Oui, toutes nos formations sont éligibles au CPF. Nous vous accompagnons pas à pas pour activer votre financement.</p>
+                    </div>
+                </article>
+                <article class="faq__item" data-animate="fade" data-animate-delay="0.08s">
+                    <button class="faq__question" aria-expanded="false">Combien de temps ai-je accès aux contenus ?</button>
+                    <div class="faq__answer" hidden>
+                        <p>Les contenus sont accessibles à vie. Les mises à jour et nouveaux modules vous sont offerts automatiquement.</p>
+                    </div>
+                </article>
+                <article class="faq__item" data-animate="fade" data-animate-delay="0.16s">
+                    <button class="faq__question" aria-expanded="false">Comment fonctionne le suivi pédagogique ?</button>
+                    <div class="faq__answer" hidden>
+                        <p>Un coach vous est attribué dès votre inscription. Il suit vos progrès, planifie des points réguliers et vous aide à atteindre vos objectifs.</p>
+                    </div>
+                </article>
+                <article class="faq__item" data-animate="fade" data-animate-delay="0.24s">
+                    <button class="faq__question" aria-expanded="false">Proposez-vous des formules pour les entreprises ?</button>
+                    <div class="faq__answer" hidden>
+                        <p>Oui, nos équipes conçoivent des parcours personnalisés, avec reporting RH, classes virtuelles dédiées et tarifs dégressifs.</p>
+                    </div>
+                </article>
+                <article class="faq__item" data-animate="fade" data-animate-delay="0.32s">
+                    <button class="faq__question" aria-expanded="false">Les formations sont-elles accessibles en mobilité ?</button>
+                    <div class="faq__answer" hidden>
+                        <p>Oui, notre application mobile permet de suivre les modules hors ligne et de reprendre votre progression à tout moment.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta" data-animate="fade">
+            <div class="cta__text" data-animate="slide-right">
+                <h2>Vous n'avez pas trouvé votre réponse ?</h2>
+                <p>Notre équipe support est disponible du lundi au vendredi de 9h à 18h pour vous accompagner.</p>
+            </div>
+            <a class="btn btn--light" data-animate="slide-left" data-animate-delay="0.12s" href="contact.html">Écrire au support</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div>
+                <h3>Formations Pro+</h3>
+                <p>La plateforme e-commerce française dédiée aux formations professionnelles premium.</p>
+            </div>
+            <nav class="footer__nav">
+                <div>
+                    <h4>Formations</h4>
+                    <a href="catalogue.html#catalogue">Marketing digital</a>
+                    <a href="catalogue.html#catalogue">Management</a>
+                    <a href="catalogue.html#catalogue">Data &amp; Tech</a>
+                    <a href="catalogue.html#catalogue">Soft skills</a>
+                </div>
+                <div>
+                    <h4>Entreprise</h4>
+                    <a href="catalogue.html#offre">Offre Pack Business</a>
+                    <a href="temoignages.html#temoignages">Références clients</a>
+                    <a href="contact.html#contact">Support et contact</a>
+                    <a href="faq.html#faq">FAQ</a>
+                </div>
+                <div>
+                    <h4>Légal</h4>
+                    <a href="#">Conditions générales de vente</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Accessibilité</a>
+                </div>
+            </nav>
+            <div class="footer__newsletter">
+                <h4>Recevoir nos actualités</h4>
+                <form class="newsletter__form">
+                    <input type="email" placeholder="Votre email" aria-label="Email newsletter" required>
+                    <button type="submit" class="btn btn--secondary">S'inscrire</button>
+                </form>
+                <p class="newsletter__note">En vous inscrivant, vous acceptez de recevoir nos emails. Désinscription en un clic.</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2024 Formations Pro+. Tous droits réservés.</p>
+            <div class="footer__badges">
+                <span>✅ Certification Qualiopi</span>
+                <span>🔒 Paiement sécurisé SSL</span>
+                <span>🌱 1% reversé à des projets éducatifs</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
